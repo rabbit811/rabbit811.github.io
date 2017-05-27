@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+
+</head>
+<body>
+	<div class="grid">
+		<div class="row head">
+			<div class="col-6">
+				<img id="logo" src="images/method-draw-image.svg">
+			</div>
+			<div class="col-6 title">
+				<h1>JANE DOETTE</h1>
+				<h3 class="author">FRONT-END NINJA</h3>
+			</div>
+		</div>
+			<picture>
+				<source 
+					media="(min-width: 1000px)"
+					srcset="images/timg-50pc_large_1x.jpg 1x , images/timg-100pc_large_2x.jpg 2x">
+				<source
+					media="(max-width:500px)"
+					srcset="images/timg-small_small_1x.jpg 1x , images/timg-small_small_2x.jpg 2x">
+				<img class="row bigpicture" src="images/timg-50pc_large_1x.jpg" ale="landscapeimage">
+			</picture>
+		<div class="row">
+			<h2 class="row">Featured Work</h2>
+		</div>
+		<div class="row imgs">
+			<div class="work">
+				<picture class="pictures">
+					<source 
+						media="(min-width: 1000px)"
+						srcset="images/appify-50pc_large_1x.jpg 1x , images/appify-100pc_large_2x.jpg 2x">
+					<source
+						media="(max-width:500px)"
+						srcset="images/appify-small_small_1x.jpg 1x , images/appify-small_small_2x.jpg 2x">
+					<img class="row picture" src="images/appify-small_small_1x.jpg" alt="appify">
+				</picture>
+				<h3 class="imgname">APPIFY</h3>
+				<p><a class="link" href="#">https://github.com/udacity/appify</a></p>
+			</div>
+			<div class="work">
+				<picture class="pictures">
+					<source 
+						media="(min-width: 1000px)"
+						srcset="images/sunflower-50pc_large_1x.jpg 1x , images/sunflower-100pc_large_2x.jpg 2x">
+					<source
+						media="(max-width:500px)"
+						srcset="images/sunflower-small_small_1x.jpg 1x , images/sunflower-small_small_2x.jpg 2x">
+					<img class="row picture" src="images/sunflower-small_small_1x.jpg" alt="sunflower">
+				</picture>
+				<h3 class="imgname">SUNFLOWER</h3>
+				<p><a  class="link" href="#">https://github.com/udacity/sunflower</a></p>
+			</div>
+			<div class="work">
+				<picture class="pictures">
+					<source 
+						media="(min-width: 1000px)"
+						srcset="images/bokeh-50pc_large_1x.jpg 1x , images/bokeh-100pc_large_2x.jpg 2x">
+					<source
+						media="(max-width:500px)"
+						srcset="images/bokeh-small_small_1x.jpg 1x , images/bokeh-small_small_2x.jpg 2x">
+					<img class="row picture" src="images/bokeh-50pc_large_1x.jpg" alt="bokeh">
+				</picture>
+				<h3 class="imgname">BOKEH</h3>
+				<p><a  class="link" href="#">https://github.com/udacity/bokeh</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
